@@ -82,7 +82,9 @@ main {
 .right {
   width : 65%;
 }
-
+ img {
+  width : 10%;
+ }
 
 @media screen and (max-width : 800px){
   .dropbtn {
