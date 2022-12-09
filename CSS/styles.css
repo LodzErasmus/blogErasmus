@@ -6,19 +6,15 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+ 
+  background-color: white;
+}
+
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
-
-footer{
-  bottom: 0;
-}
-
-body { 
-  background-color: rgb(7, 9, 12);
+    height:100%;    
+    padding: 0;
+    margin: 0;
 }
 nav {
   position: relative;
@@ -79,24 +75,8 @@ display: inline-block;
 
 .dropdown-content{display: block;}
 
-main {
-  color : white;
-  display: flex;
-  flex-wrap: nowrap;
-}
 
-.left {
-  width: 45%;
-}
-.right {
-  width : 65%;
-}
- img {
-  width : 10%;
- }
- footer{
-  position: absolute;
- }
+
 
 @media screen and (max-width : 800px){
   .dropbtn {
@@ -135,4 +115,36 @@ main {
     display: block;
   }
 
+}
+
+.row {overflow: hidden;}
+
+.col {
+    float: left;
+    padding: 20px;
+    padding-top: 0;}
+
+.w100 {width: 100%;}
+
+.Contact__list {
+    padding: 0;
+    list-style: none;
+    text-align: center;;
+}
+
+.footer__p {
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 6px 0 6px 0;
+}
+
+h4 {text-align: center;}
+
+h4:hover {text-decoration: underline;}
+
+footer {
+    background-color: rgb(39, 37, 37);
+    color : white;
+    bottom : 0px;
+    position : relative;
 }
