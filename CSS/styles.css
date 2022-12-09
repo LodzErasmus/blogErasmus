@@ -146,5 +146,5 @@ footer {
     background-color: rgb(39, 37, 37);
     color : white;
     bottom : 0px;
-    position : relative;
+    margin-top: auto;
 }
