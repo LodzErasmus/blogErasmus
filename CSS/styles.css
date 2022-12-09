@@ -70,7 +70,18 @@ display: inline-block;
 
 .dropdown-content{display: block;}
 
-main {color : white;}
+main {
+  color : white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.left {
+  width: 45%;
+}
+.right {
+  width : 65%;
+}
 
 
 @media screen and (max-width : 800px){
