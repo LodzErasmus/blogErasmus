@@ -7,7 +7,7 @@
     <meta name="description" content="Blog Erasmus Lodz">
     <meta name="keywords" content="Blog, Lodz">
     <meta name="author" content="Romain Jaffré, Eloi Anquetil">
-    <title>Accueil</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="CSS/accueil.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -23,9 +23,9 @@
         <button class="dropbtn">Menu</button>
         <div class="dropdown-content">
             <a href="index.html">Accueil</a>
-            <a href="#" >Les articles</a>
-            <a href="#">Recommandations à Lodz</a>
-            <a href="#">Les voyages ailleurs</a>
+            <a href="#" >Articles</a>
+            <a href="#">Recommandations at Lodz</a>
+            <a href="#">Other trip</a>
             <a href="contact.html" class="active">Contact us</a>
         </div>
     </div>
@@ -51,26 +51,26 @@
                     
                     <div>
                         <div>
-                            <label for="fName">Prénom : <span>*</span></label>
-                            <input type="text" name="fName" id="fName" placeholder="Entrez votre Prénom..." required onchange="upperCase(this)" />
+                            <label for="fName">First name : <span>*</span></label>
+                            <input type="text" name="fName" id="fName" placeholder="Write your first name..." required onchange="upperCase(this)" />
                         </div>
                          <div>
-                            <label for="lName">Nom : <span>*</span></label>
-                            <input type="text" name="lName" id="lName" placeholder="Entrez votre Nom..." required  onchange="upperCase(this)"/>
+                            <label for="lName">Name : <span>*</span></label>
+                            <input type="text" name="lName" id="lName" placeholder="Write your name..." required  onchange="upperCase(this)"/>
                         </div>
-                        <fieldset><legend>Quel type de relation voulez-vous ?<span>*</span></legend>
+                        <fieldset><legend>Which relation do you want ?<span>*</span></legend>
                             <div>
                                 <div>
                                     <input type="checkbox" id="relation1" name="relation1" value="Bike">
-                                    <label for="relation1"> Relation Professionnel</label>
+                                    <label for="relation1"> Professional Relation </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="relation2" name="relation2" value="Car">
-                                    <label for="relation2"> Vie Privé </label>
+                                    <label for="relation2"> Private Relation </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="relation3" name="relation3" value="Boat">
-                                    <label for="relation3"> Information sur le site </label>
+                                    <label for="relation3"> Information on the website</label>
                                 </div>
                             </div>
                         </fieldset>
@@ -80,20 +80,20 @@
                 <div class="main">
                     <div>
                         <label for="email">E-mail : <span>*</span></label>
-                        <input type="email" name="email" id="email" placeholder="Entrez votre email..." required onchange="upperCase(this)" />
+                        <input type="email" name="email" id="email" placeholder="Write your email..." required onchange="upperCase(this)" />
                     </div>
                     <div>
-                        <label for="location">Adresse de l'entreprise : </label>
+                        <label for="location">Location : </label>
                         <input type="text" name="location" id="location" placeholder="00, Rue Tartampion, 99200 Bafamou" onchange="upperCase()">
                     </div>
                     <div>
-                        <label for="texte">Votre texte : <span>*</span></label>
-                        <textarea name="texte" id="texte" placeholder="Entrez votre texte..." required></textarea>
+                        <label for="texte">Text message : <span>*</span></label>
+                        <textarea name="texte" id="texte" placeholder="Write a text..." required></textarea>
                     </div>
                 </div>
             </div>
             <div class="3">
-                <button type="submit" >Envoyer</button>
+                <button type="submit" >Send</button>
             </div>
         </form>
 </main>

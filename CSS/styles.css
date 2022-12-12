@@ -224,7 +224,7 @@ background-color: #45a049;
 
 
 @media screen and (max-width : 800px){
-  main{
-    flex-wrap: wrap;
+  main>div{
+    flex-direction: column;
   }
 }
