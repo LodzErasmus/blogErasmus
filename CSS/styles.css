@@ -157,7 +157,7 @@ main {
   z-index: 1;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -210,7 +210,7 @@ label{padding: auto 20px;}
   
 button {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: darkblue;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -220,4 +220,11 @@ button {
 }
 button:hover {
 background-color: #45a049;
+}
+
+
+@media screen and (max-width : 800px){
+  main{
+    flex-wrap: wrap;
+  }
 }
