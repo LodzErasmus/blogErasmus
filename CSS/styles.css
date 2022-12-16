@@ -164,6 +164,10 @@ main {
 form > div{display: flex;
 flex-direction: row;}
 
+main > div {
+  display: flex;
+  flex-direction: row;
+}
 .above{
 
   text-align: center;
