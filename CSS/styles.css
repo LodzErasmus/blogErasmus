@@ -173,14 +173,14 @@ flex-direction: row;}
 /* La colonne de gauche, le side avec mes infos perso */
 .side {
   flex: 30%;
-  background-color: #BDB76B;
+  background-color: #313356;
   padding: 10px;
 }
 
 /* Le superbe texte avec des infos utiles, le main */
 .main {
   flex: 70%;
-  background-color: #f1f1f1;
+  background-color: #142e1d;
   padding: 20px;
 }
 main h3 , main p {
@@ -192,7 +192,9 @@ main > h2 , main > p {
   margin: 20px 200px;
 }
 
-span { color: red}
+span { 
+  color: red;
+}
 
 
 input[type=text], select, input[type=email], textarea {
