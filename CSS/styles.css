@@ -157,7 +157,6 @@ main {
   z-index: 1;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: column;
   justify-content: center;
 }
 
